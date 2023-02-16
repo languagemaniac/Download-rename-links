@@ -81,7 +81,7 @@ for i, url in enumerate(urls[continuar_desde:]):
 
 # Escribir lista de errores en archivo de texto
 if errores_descarga:
-    with open("errores.txt", "w") as f:
+    with open("errores.txt", "w", encoding="utf-8") as f:
         for url, mensaje in errores_descarga:
             f.write(f"{url}\t{mensaje}\n")
     print("Se han registrado errores de descarga. Verifique el archivo 'errores.txt' para más información.")
