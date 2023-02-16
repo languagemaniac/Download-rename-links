@@ -1,5 +1,5 @@
 # Download-rename-links
-In short, this lets you download a series of urls you have written in newlines in a txt file. It renames the files to 1.mp3, 2.mp3, etc.
+In short, this lets you download a series of urls you have written in newlines in a txt file. It renames the files according to what line was the url at. So the first one will be called 1.mp3, the second one 2.mp3, etc.
 
 I wrote this because I constantly need to download audio for japanese words and keep track of what audio belongs to what word in my excel file.
 
