@@ -9,7 +9,7 @@ As my python skills couldn't quite achieve this goal, I asked ChatGPT, and after
 So here's how it works:
 
   1. Create a txt file named "urls.txt" containing all the URLs you want to download, in newlines.
-  2. Execute downloader.py (by executing "Python downloader.py")
+  2. Execute LinkDownloader.py (by executing "Python LinkDownloader.py")
   3. It's going to ask you what line of the text file do you want to start from (this is because a previous code crashed when trying to download the list of files and I wanted to retry downloading from the last sucessfull download, but it's really not necessary now as I implemented ways to avoid this issue, but I left it there just in case)
   4. It's going to start downloading several urls (in parallel!) and retrying failed downloads.
   5. When it finishes, it will generate a txt file named "errors.txt" with a list of URLs it couldn't download and why, if for whatever reason fails to download a URL after several tries and the program finishes without having downloaded it.
