@@ -20,5 +20,5 @@ The server I wanted to download files from gave me this "maximum tries exceeded"
 
 I also didn't notice I had an empty line in my txt file which resulted in a "invalid url" error, so that's why I also made ChatGPT implement a way to tell me which urls couldn't be downloaded at the end of the process and why. Although if you have an empty line like I did, it won't tell you which url is it that failed, because there is no url to display... maybe just check your txt file then)
 
-I tried this with a list of over 2000 URLs and it successfully downloaded all of them!
+I tried this with a list of over 2000 URLs and it successfully downloaded and renamed all of them!
 
