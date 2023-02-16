@@ -2,6 +2,7 @@
 In short, this lets you download a series of urls you have written in newlines in a txt file. It renames the files to 1.mp3, 2.mp3, etc.
 
 I wrote this because I constantly need to download audio for japanese words and keep track of what audio belongs to what word in my excel file.
+
 The goal was to find a way to download a list of URLs with a program that would read all the URLs I previously generated with Microsoft Excel based on japanese words (by altering a URL parameters with a formula), and just renamed the downloaded files according to the number for that word in excel (first word in excel being URL number 1 in the list, so starting from 1.mp3).
 
 As my python skills couldn't quite achieve this goal, I asked ChatGPT, and after several "revisions" of the code, I think I got the ultimate mp3 link Download&Renamer tool.
